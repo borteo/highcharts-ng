@@ -147,7 +147,7 @@ angular.module('highcharts-ng', [])
 
 
     return {
-      restrict: 'EC',
+      restrict: 'EAC',
       replace: true,
       template: '<div></div>',
       scope: {
